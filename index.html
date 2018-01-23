@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>CrystalCollectors!</h1>
+
+	<div id="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+
+	<div id="random-score">
+	</div>
+	<div id="wins-losses">
+		<p>Wins: </p>
+		<p>Losses: </p>
+	</div>
+	<button id="gem1"><img src="https://pbs.twimg.com/profile_images/531994916181012480/EBap51cO.png" alt="gem"></button>
+	<button id="gem2"><img src="http://stemgemsbook.com/wp-content/uploads/2016/03/green-gem.png" alt="gem"></button>
+	<button id="gem3"><img src="http://www.azgem.com/images/gem-photo-favorites-rhodolite-red-round-455.jpg" alt="gem"></button>
+	<button id="gem4"><img src="https://vignette.wikia.nocookie.net/steven-universe/images/3/3a/NewRoseGem.png/revision/latest?cb=20150425065852" alt="gem"></button>
+
+	<p>Your total score is:       </p>
+	<div id="your-score"></div>
+
+
+
+	<script src="assets/javascript/game.js"> </script>	
+</body>
+</html>
