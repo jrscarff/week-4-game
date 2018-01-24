@@ -3,7 +3,7 @@
 <head>
 	<title>Crystal Collectors</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -25,13 +25,15 @@
 		<p>Wins: <span id="win-count"></span></p>
 		<p>Losses: <span id="loss-count"></span></p>
 	</div>
-	<button id="gem1"><img class="gems" src="https://pbs.twimg.com/profile_images/531994916181012480/EBap51cO.png" alt="gem"></button>
-	<button  id="gem2"><img class="gems" src="http://stemgemsbook.com/wp-content/uploads/2016/03/green-gem.png" alt="gem"></button>
-	<button id="gem3"><img class="gems" src="http://www.azgem.com/images/gem-photo-favorites-rhodolite-red-round-455.jpg" alt="gem"></button>
-	<button id="gem4"><img class="gems" src="https://vignette.wikia.nocookie.net/steven-universe/images/3/3a/NewRoseGem.png/revision/latest?cb=20150425065852" alt="gem"></button>
+	<div id="holder">
+		<button id="gem1"><img class="gems" src="https://pbs.twimg.com/profile_images/531994916181012480/EBap51cO.png" alt="gem"></button>
+		<button  id="gem2"><img class="gems" src="http://stemgemsbook.com/wp-content/uploads/2016/03/green-gem.png" alt="gem"></button>
+		<button id="gem3"><img class="gems" src="http://www.azgem.com/images/gem-photo-favorites-rhodolite-red-round-455.jpg" alt="gem"></button>
+		<button id="gem4"><img class="gems" src="https://vignette.wikia.nocookie.net/steven-universe/images/3/3a/NewRoseGem.png/revision/latest?cb=20150425065852" alt="gem"></button>
+	</div>
 
-	<p>Your total score is:       </p>
-	<div id="your-score"></div>
+	<p class="bottom">Your total score is:       </p>
+	<div class="bottom" id="your-score"></div>
 
 
 

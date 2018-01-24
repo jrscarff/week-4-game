@@ -1,4 +1,53 @@
+* {
+	margin: 10px;
+}
+
+body {
+	background-image: url("../images/gold_scale/gold_scale.png");
+}
+
+h1 {
+	color: white;
+	background-color: orange;
+	width: 300px;
+	text-align: center;
+}
+
 .gems {
 	height: 100px;
-	width: auto;
+	width: auto; 
+	clear: both;
+	background-color: white;
+}
+.bottom {
+	background-color: #019182;
+	width: 280px;
+	color: white;
+}
+
+#instructions {
+	background-color: white;
+	color: green;
+}
+
+#random-score {
+	background-color: #16D13C;
+	width: 270px;
+	height: 100px;
+	float: left;
+}
+#wins-losses {
+	height: 100px;
+	background-color: #62FAF1;
+	width: 100px;
+	float: left;
+}
+
+#holder {
+	clear: both;
+}
+
+#your-score {
+	height: 100px;
+	text-size: 24px;
 }
