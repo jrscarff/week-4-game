@@ -43,6 +43,7 @@ $(document).ready(function() {
 			$("#random-score").text(randomNumber);
 			$("#your-score").text(yourScore);
 	}
+	
 		$("#gem1").on("click", function () {
 			yourScore += gem1Number;
 			document.getElementById('your-score').textContent = yourScore;

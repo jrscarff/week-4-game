@@ -11,6 +11,7 @@ h1 {
 	background-color: orange;
 	width: 300px;
 	text-align: center;
+	padding: 10px 0px 10px 0px;
 }
 
 .gems {
@@ -28,6 +29,8 @@ h1 {
 #instructions {
 	background-color: white;
 	color: green;
+	width: 400px;
+	padding: 10px 0px 40px 0px;
 }
 
 #random-score {
